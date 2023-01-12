@@ -1,0 +1,151 @@
+/* base styles */
+nav{
+  margin: 30px;
+}
+
+ul,li,a{
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+
+}
+
+
+ul{
+  display: flex;
+}
+
+a{
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 12px;
+}
+
+
+
+header, #footer {
+  background-color: purple;
+}
+
+.header-text, #footer {
+  color: white;
+  text-align: center;
+}
+
+.article-title {
+  font-family: Arial;
+}
+
+.article-date {
+  font-style: italic;
+}
+
+.article-author, .article-date {
+  color: grey;
+}
+
+article{
+  margin: 50px;
+  border: 3px solid purple;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 350px;
+
+}
+
+
+
+.thumbnail-image{
+  width: 100px;
+  height: 100px;
+}
+
+
+#footer{
+  margin-top: 70px;
+}
+
+/* Link button styles */
+
+.read-more{
+  color: white;
+  text-decoration: none;
+  background-color: purple;
+  border-radius: 20px;
+  padding: 8px 15px;
+
+  /* padding-top: 8px ;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px; */
+  font-size: 14px;
+  margin: 20px 0px;
+}
+
+/* Article page  */
+
+.main-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 400px;
+}
+
+.author-title{
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.read-time{
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: -15px;
+  
+}
+
+.main-content{
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0px 30px;
+}
+
+
+
+
+
+
+
+
+/* Button styles  */
+
+button{
+  background: none;
+  color:#ffa260;
+  border:2px solid;
+  padding: 1em 2em;
+  font-size:1em;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+button:hover{
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+.button-bg{
+  background-color: #151b29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} 
